@@ -37,6 +37,21 @@ header img {
   grid-area: header;
 }
 
+.pano {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+h1 {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+}
+
 li {
   list-style-type: none;
 }
