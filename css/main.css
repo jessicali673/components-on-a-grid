@@ -22,13 +22,15 @@ header {
 }
 
 body {
+  margin: 0;
+  padding: 1rem;
   display: grid;
   grid-template-areas:
     "header header"
     "main main";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1.32fr 1fr;
-  }
+}
 
 header img {
   position: relative;
