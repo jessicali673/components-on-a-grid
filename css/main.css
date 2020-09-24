@@ -74,3 +74,25 @@ header nav {
   grid-row: 1;
   z-index: 1;
 }
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Patua One", sans-serif;
+  color: #30658d;
+  margin: 1rem 0 0;
+}
+
+p {
+  margin: 0;
+}
