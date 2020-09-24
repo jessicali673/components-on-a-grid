@@ -27,3 +27,22 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   }
+
+header img {
+  position: relative;
+}
+
+.banner {
+  display: grid;
+  grid-area: header;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  font-size: 2rem;
+  font-family: "Patua One", sans-serif;
+  color: #fff;
+}
