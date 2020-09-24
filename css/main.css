@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  background-color: #f2f1ed;
 }
 
 *,
@@ -17,6 +18,7 @@ img {
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  margin: 0;
 }
 
 body {
@@ -25,7 +27,7 @@ body {
     "header header"
     "main main";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1.32fr 1fr;
   }
 
 header img {
@@ -38,8 +40,8 @@ header img {
 }
 
 .pano {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
 }
 
 h1 {
@@ -79,7 +81,7 @@ main {
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   margin: 0;
 }
 
