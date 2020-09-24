@@ -46,18 +46,31 @@ h1 {
   grid-column: 1;
   grid-row: 1;
   z-index: 1;
+  width: 14rem;
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
 }
 
 ul {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
+  padding: 1rem;
 }
 
 a {
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
   color: #fff;
+}
+
+header nav {
+  grid-column: 2;
+  grid-row: 1;
+  z-index: 1;
 }
