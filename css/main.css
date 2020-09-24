@@ -18,3 +18,12 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
 }
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  }
